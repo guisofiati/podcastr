@@ -17,7 +17,7 @@ type Episode = {
     durationAsString: string;
     url: number;
     publishedAt: Date;
-    description: Date;
+    description: string;
 };
 
 type EpisodeProps = {
@@ -52,9 +52,10 @@ export default function Episode({ episode }: EpisodeProps) {
                 <span>{episode.durationAsString}</span>
             </header>
 
-            <div className={styles.description}>
-                {episode.description}
-            </div>
+            <div
+                className={styles.description}
+                dangerouslySetInnerHTML={{ __html: episode.description }}
+            />
         </div>
     )
 }
