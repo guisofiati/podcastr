@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
- Podcastr é uma aplicação web desenvolvida durando o **NLW5** promovido pela **Rocketseat**.  <br /> 
+ Podcastr é uma aplicação web desenvolvida durante o **NLW5** promovido pela **Rocketseat**.  <br /> 
  A aplicação consiste em um modelo semelhante ao Spotify para reprodução de podcasts. <br /> 
  O app traz detalhes do episódio (descrição), além de shuffle, loop, next, previous, pause e play dos episódios. <br /> 
  <br /> 
